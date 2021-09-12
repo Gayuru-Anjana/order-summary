@@ -1,7 +1,12 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  background-image: url(#target);
+  background: linear-gradient(
+      top bottom hsl(225, 100%, 98%),
+      hsl(224, 23%, 55%),
+      hsl(223, 47%, 23%)
+    ),
+    url(#target);
   background-size: cover;
   background-position: center;
 }
@@ -19,32 +24,38 @@
 }
 .heading {
   font-weight: bolder;
-  line-height: 80px;
+  line-height: 50px;
   text-align: center;
 }
 .para {
   text-align: center;
   width: 350px;
   margin: auto;
+  padding-bottom: 10px;
   color: hsl(212, 55%, 41%);
 }
 .section {
-  padding-top: 35px;
   position: relative;
+  background-color: rgb(205, 211, 223);
+  width: 300px;
+  height: 110px;
+  margin: auto;
+  border-radius: 20px;
 }
 .plan {
   position: absolute;
-  left: 65px;
+  top: 35px;
+  left: 5px;
 }
 .cost {
   position: absolute;
-  left: 130px;
+  left: 70px;
   top: 40px;
   display: inline-block;
 }
 .change {
   position: absolute;
-  left: 330px;
+  left: 230px;
   top: 50px;
   font-size: 15px;
 }
@@ -53,7 +64,7 @@
   color: hsl(223, 100%, 33%);
 }
 .payment {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .first {
   font-weight: bolder;
