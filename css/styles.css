@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(#target);
+  background-size: cover;
+  background-position: center;
+}
+.Order {
+  width: 450px;
+  height: 605px;
+  margin: -439px auto;
+  background-color: rgba(235, 222, 222, 0.719);
+  border-radius: 30px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.Image {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.heading {
+  font-weight: bolder;
+  line-height: 80px;
+  text-align: center;
+}
+.para {
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  color: hsl(212, 55%, 41%);
+}
+.section {
+  padding-top: 35px;
+  position: relative;
+}
+.plan {
+  position: absolute;
+  left: 65px;
+}
+.cost {
+  position: absolute;
+  left: 130px;
+  top: 40px;
+  display: inline-block;
+}
+.change {
+  position: absolute;
+  left: 330px;
+  top: 50px;
+  font-size: 15px;
+}
+.change:hover {
+  font-weight: bolder;
+  color: hsl(223, 100%, 33%);
+}
+.payment {
+  padding-top: 100px;
+}
+.first {
+  font-weight: bolder;
+}
+.second {
+  color: hsl(225, 31%, 64%);
+}
+.payment ul li {
+  list-style: none;
+  height: 60px;
+}
+.proceed {
+  text-decoration: none;
+  border-radius: 10px;
+  color: hsl(245, 75%, 52%);
+  background-color: rgba(245, 245, 245, 0.815);
+  padding: 10px 100px;
+  transition: all 0.5s;
+}
+.proceed:hover {
+  color: white;
+  font-weight: bolder;
+  background: hsl(245, 75%, 52%);
+}
+.cancel {
+  text-decoration: none;
+  border-radius: 10px;
+  color: hsl(245, 75%, 52%);
+  padding: 10px 125px;
+  background-color: rgba(245, 245, 245, 0.815);
+  transition: all 0.5s;
+}
+.cancel:hover {
+  color: white;
+  font-weight: bolder;
+  background: hsl(245, 75%, 52%);
+}
