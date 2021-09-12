@@ -86,14 +86,15 @@ body {
   text-decoration: none;
   border-radius: 10px;
   color: hsl(245, 75%, 52%);
-  background-color: rgba(245, 245, 245, 0.815);
+  background-color: hsl(245, 75%, 52%);
   padding: 10px 100px;
   transition: all 0.5s;
+  color: white;
 }
 .proceed:hover {
-  color: white;
+  box-shadow:2px 0px 1px black;
   font-weight: bolder;
-  background: hsl(245, 75%, 52%);
+  background: ;
 }
 .cancel {
   text-decoration: none;
