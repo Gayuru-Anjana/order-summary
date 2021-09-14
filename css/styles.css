@@ -13,6 +13,7 @@ body {
       hsl(223, 47%, 23%)
     ),
     url(#target);
+    overflow: hidden;
 }
 .Order {
   width: 450px;
